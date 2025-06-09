@@ -3,8 +3,6 @@ services:
     build: ./raspi-next-app
     ports:
       - "3000:3000"
-    volumes:
-      - ./raspi-next-app:/app
     depends_on:
       - db
 
